@@ -1,67 +1,81 @@
-    <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Rencontres</title>
-            <link rel="stylesheet" href="./assets/css/style.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <!-- Les polices d'écriture en provenance de Google Fonts -->
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-        </head>
-        <body>
-            <header>
-                <nav  class="wrapper">
-                    
-                    <div class="title">
-                            <h1>
-                                Extra
-                            </h1>
-                            <a href="/"><img src="assets/img/logo_rencontre.png" alt="logo rencontre" class="logo"></a>
-                            <h1>
-                                Love
-                            </h1>
-                        
-                    </div>
-                    <div> 
-                        <ul>
-                            <li>
-                                <a href="#boutique" >Cadeaux &ensp;</a>
-                                <ul class="sub_menu">
-                                    <li><a href="https://www.cadeauxfolies.fr/cadeaux-romantiques">Cadeaux Romantiques</a></li>
-                                    <li><a href="https://fr.lovebox.love/collections/all?gclid=Cj0KCQjw4uaUBhC8ARIsANUuDjXjurOsTFzvnJLJnHnWonTijm9Gr3phVMWzmCf-GGF_FkEMoh0BNGMaAnLiEALw_wcB">LoveBox</a></li>
-                                    <li><a href="https://www.interflora.fr/c/chocolat/fleurs-gourmandises">Fleur & Chocolat</a></li>
-                                </ul>
-                            
-                            </li>
-                            <li>
-                                <a href="rick-morty-api">Rencontrer son âme soeur</a>
-                            </li>
-                            <li>
-                                <a href="#plop">Calculette d'amour</a>
-                            </li>
-                            <li class="navigation_login">
-                                <a href="login.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" fill="currentColor"  viewBox="0 0 24 24"><path d="M12 5.9a2.1 2.1 0 1 1 0 4.2a2.1 2.1 0 0 1 0-4.2m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79 4-4s-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"></path></svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div> 
-                </nav>
-            </header>
-            
-            <section id="plop" >
-                <h2 class="mx-auto">Ma calculette d'amour</h2>
-                <div class="APIContainer">
-                <h4 classe="titreCalculatrice">Découvrez si vous matchez ensemble ❤️😊</h4>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rencontres</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Les polices d'écriture en provenance de Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="wrapper">
+                <div class="title">
+                    <h1>
+                        Extra
+                    </h1>
+                    <a href="/"><img src="assets/img/logo_rencontre.png"
+                            alt="logo rencontre" class="logo"></a>
+                    <h1>
+                        Love
+                    </h1>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="#boutique">Cadeaux &ensp;</a>
+                            <ul class="sub_menu">
+                                <li><a href="https://www.cadeauxfolies.fr/cadeaux-romantiques">Cadeaux
+                                        Romantiques</a></li>
+                                <li><a href="https://fr.lovebox.love/collections/all?gclid=Cj0KCQjw4uaUBhC8ARIsANUuDjXjurOsTFzvnJLJnHnWonTijm9Gr3phVMWzmCf-GGF_FkEMoh0BNGMaAnLiEALw_wcB">LoveBox</a></li>
+                                <li><a href="https://www.interflora.fr/c/chocolat/fleurs-gourmandises">Fleur
+                                        & Chocolat</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="rick-morty-api">Rencontrer son âme soeur</a> </li>
+                        <li><a href="#plop">Calculette d'amour</a></li>
+                        <li class="navigation_login">
+                            <a href="login.html">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true" role="img" class="iconify
+                                    iconify--ic" width="32" height="32"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    fill="currentColor" viewBox="0 0 24 24"><path
+                                        d="M12 5.9a2.1 2.1 0 1 1 0 4.2a2.1 2.1 0
+                                        0 1 0-4.2m0 9c2.97 0 6.1 1.46 6.1
+                                        2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12
+                                        4C9.79 4 8 5.79 8 8s1.79 4 4 4s4-1.79
+                                        4-4s-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8
+                                        4v3h16v-3c0-2.66-5.33-4-8-4z"></path></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section id="plop">
+            <h2 class="mx-auto">Ma calculette d'amour</h2>
+            <div class="APIContainer">
+                <h4 classe="titreCalculatrice">Découvrez si vous matchez
+                    ensemble ❤️😊</h4>
                 <div class="currencyContainer">
-                    
                     <div style="margin-left: 20px">
                         <form id="form">
-                            <input class="form-control marginTopBottom" type="text" id="name1" name="name1" placeholder="Ton prénom">
-                            <input class="form-control marginTopBottom" type="text" id="name2" name="name1" placeholder="Son prénom">
+                            <input class="form-control marginTopBottom"
+                                type="text" id="name1" name="name1"
+                                placeholder="Ton prénom">
+                            <input class="form-control marginTopBottom"
+                                type="text" id="name2" name="name1"
+                                placeholder="Son prénom">
                             <button type="submit" value="Calculer" id="submit">Calcul</button>
                         </form>
                     </div>
@@ -69,12 +83,34 @@
                         <h4 id="result"></h4>
                     </div>
                 </div>
-
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-                <script src="./assets/calculette.js"></script>
-                
-               
             </section>
-            
+            <div class="container">
+                <h4>❤ L'amour se trouve parmi nos membres ! Rejoignez nous vite!
+                    Ils vous attendent ❤</h4>
+                <section id="items">
+                    <!-- <h4># DesLoveuses Section</h4> -->
+                    <div class="row" id="items-list"></div>
+                </section>
+
+                <section id="rick-morty-api">
+                    <!-- <h4># Rick & Morty Section</h4>-->
+                    <div class="row" id="rick-morty-api-list"></div>
+                </section>
+
+                <section id="characters">
+                    <!-- <h4># GT Section</h4> -->
+                    <div class="row" id="characters-list"></div>
+                </section>
+            </div>
+
             <footer>Copyright 2022 ExtraLove</footer>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
+                integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="crossorigin="anonymous"
+                referrerpolicy="no-referrer"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+                <script src="./assets/calculette.js"></script>
+                <script src="assets/js/function.js"></script> 
+            <script src="assets/js/main.js"></script>  
         </body>
+</html>
