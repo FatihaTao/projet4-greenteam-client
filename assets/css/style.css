@@ -1,0 +1,222 @@
+/* Reset CSS*/
+*{
+    margin: 0; /* Remove margins */
+    padding: 0; /* removes default padding */
+    box-sizing: border-box; /* to make sure all elements are the same size */
+    list-style: none; /* remove list bullets */
+    text-decoration: none; /* remove underline */
+    font-family: 'Poppins', sans-serif; /* font family */
+}
+
+body{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background-image: linear-gradient(rgb(254, 253, 247), rgb(202, 130, 106)),
+                  url("../../media/examples/lizard.png");
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-shadow: #333 0 -2px;
+}
+    
+.title h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    /*color: rgb(166, 28, 28);*/
+    color: rgb(219, 141, 115);
+    
+}
+.title {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.logo {
+    width: 15vh;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #c49412;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding-top: 20px;
+    
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        align-content: center; 
+        background: rgb(254, 253, 247);
+    
+
+}
+
+header {
+    border-bottom: 1px solid #eee;
+    
+
+}
+header .wrapper {
+    
+    display: block;
+     
+
+}
+
+header ul{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+    
+}
+header li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+   
+}
+
+header li a{
+    display: block;
+    padding: 20px;
+    
+}
+
+header li:hover a{
+    background-color: rgb(202, 130, 106);
+    color: rgb(254, 253, 247);
+    
+    
+}
+
+header li:hover .sub_menu{
+    display: block;
+}
+.sub_menu{
+
+    display: none;
+    position:absolute;
+    background-color: rgb(202, 130, 106);
+    width: 270px;
+}
+
+.sub_menu li a{
+    color: #fff;
+}
+.sub_menu li:hover a{
+    background-color: #fff;
+    color: rgb(219, 141, 115);
+    width: 270px;
+}
+
+#plop {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+section#plop{
+    margin-top: 50px;
+}
+
+
+
+/*style de la calculette*/
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.APIContainer {
+    margin: 50px auto 150px auto;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 40%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(254, 253, 247);
+}
+
+
+
+.marginTopBottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Currency */
+.currencyContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 30%;
+    
+}
+
+.currencyInput {
+    
+    margin: 20px 0 20px 0px;
+    
+}
+
+.currencyResult {
+    
+    width: 200%;
+    color: rgb(219, 141, 115);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+}
+
+
+
+
+button {
+    width: 80%;
+    background-color: rgb(219, 141, 115) ;
+   
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+  text-align: center;
+}
+
+
+footer {
+    
+    text-align: center;
+    border-top: 1px solid #eee;
+    background-color: rgb(202, 130, 106);
+    position:absolute;
+    width:100%;
+    padding: 3rem;
+}

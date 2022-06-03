@@ -1,0 +1,72 @@
+/* general */
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.APIContainer {
+    margin: 50px auto 150px auto;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 40%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.marginTopBottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Currency */
+.currencyContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 30%;
+    
+}
+
+.currencyInput {
+    
+    margin: 20px 0 20px 0px;
+    
+}
+
+.currencyResult {
+    
+    width: 200%;
+    color: rgb(219, 141, 115);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+}
+
+
+
+
+button {
+    width: 80%;
+    background-color: rgb(219, 141, 115) ;
+   
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+  text-align: center;
+}
