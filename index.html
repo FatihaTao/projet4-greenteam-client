@@ -61,8 +61,19 @@
                 </div>
             </nav>
         </header>
-
-        <section id="plop">
+        <section id="meteo">
+                <h2 class="mx-auto">Météo du jour</h2>
+                <div class="APIContainermeteo">
+                    <input id="queryLoc" type="text" value="Paris,fr" />
+                    <input type="button" value="APPEL API METEO"  onclick="buttonClickGET()"  />
+                    <div class="currencyResultmeteo">
+                        
+                        <p id="zone_meteo"></p>
+                    
+                    </div>
+                </div>
+          </section>
+          <section id="plop">
             <h2 class="mx-auto">Ma calculette d'amour</h2>
             <div class="APIContainer">
                 <h4 classe="titreCalculatrice">Découvrez si vous matchez
@@ -84,6 +95,7 @@
                     </div>
                 </div>
             </section>
+            
             <div class="container">
                 <h4>❤ L'amour se trouve parmi nos membres ! Rejoignez nous vite!
                     Ils vous attendent ❤</h4>
@@ -104,13 +116,17 @@
             </div>
 
             <footer>Copyright 2022 ExtraLove</footer>
-            <script
+
+                <script
                 src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"
                 integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A=="crossorigin="anonymous"
                 referrerpolicy="no-referrer"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
                 <script src="./assets/calculette.js"></script>
                 <script src="assets/js/function.js"></script> 
-            <script src="assets/js/main.js"></script>  
-        </body>
+                <script src="assets/js/main.js"></script> 
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="./assets/meteo.js"></script>
+        
 </html>
+
