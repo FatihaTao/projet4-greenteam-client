@@ -67,7 +67,6 @@ a{
 header {
     border-bottom: 1px solid #eee;
     
-
 }
 header .wrapper {
     
@@ -123,6 +122,50 @@ header li:hover .sub_menu{
     width: 270px;
 }
 
+#meteo .mx-auto  {
+    text-align: center;
+
+    
+}
+
+
+#meteo {
+    padding: 2rem;
+}
+section #meteo{
+    margin-top: 50px;
+}
+
+.APIContainermeteo {
+    margin: 50px auto 150px auto;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 40%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(254, 253, 247);
+}
+
+
+.currencyResultmeteo {
+    
+    width: 200%;
+    color: rgb(219, 141, 115);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+#zone_meteo{
+    text-align: center;
+  }
+
 #plop {
     display: flex;
 	flex-direction: column;
@@ -131,14 +174,14 @@ header li:hover .sub_menu{
 	align-items: stretch;
 	align-content: stretch;
 }
-section#plop{
+section #plop{
     margin-top: 50px;
 }
 
 
 
 /*style de la calculette*/
-.mx-auto {
+.mx-auto1 {
     margin-left: auto;
     margin-right: auto;
 }
